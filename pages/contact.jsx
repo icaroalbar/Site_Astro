@@ -69,7 +69,7 @@ export default function Contact() {
 
                     <div className="form-group mb-6">
 
-                      <label for="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Nome completo*</label>
+                      <label htmlFor="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Nome completo*</label>
 
                       <input type="text" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="nome" placeholder="Digite seu nome" />
 
@@ -77,7 +77,7 @@ export default function Contact() {
 
                     <div className="form-group mb-6">
 
-                      <label for="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">E-mail*</label>
+                      <label htmlFor="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">E-mail*</label>
 
                       <input type="text" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="email" placeholder="Digite seu e-mail" />
 
@@ -86,7 +86,7 @@ export default function Contact() {
                     <div className="grid grid-cols-2 gap-4">
                       <div className="col-span-2 md:col-span-1 form-group mb-6">
 
-                        <label for="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Telefone*</label>
+                        <label htmlFor="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Telefone*</label>
 
                         <input type="text" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="telefone" placeholder="Digite seu principal telefone" />
 
@@ -94,11 +94,11 @@ export default function Contact() {
 
                       <div className="col-span-2 md:col-span-1 form-group mb-6">
 
-                        <label for="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Assunto*</label>
+                        <label htmlFor="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Assunto*</label>
 
-                        <div class="flex">
-                          <div class="mb-3 w-full">
-                            <select class="form-select block w-full px-3 py-1.5 text-base text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example" id='assunto'>
+                        <div className="flex">
+                          <div className="mb-3 w-full">
+                            <select className="form-select block w-full px-3 py-1.5 text-base text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example" id='assunto'>
                               <option selected>Escolhe o tipo de assunto:</option>
                               <option value="Matrícula">Matrícula</option>
                               <option value="Elogio">Elogio</option>
@@ -117,11 +117,11 @@ export default function Contact() {
                 <div className="col-span-12 md:col-span-6">
                   <div className="form-group mb-6">
 
-                    <label for="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Mensagem*</label>
+                    <label htmlFor="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Mensagem*</label>
 
-                    <textarea class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="mensagem" rows="7" placeholder="Escreva aqui..." required ></textarea>
+                    <textarea className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="mensagem" rows="7" placeholder="Escreva aqui..." required ></textarea>
 
-                    <button onClick={sendEmail} type="button" class="mt-2 w-full  px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out">Enviar</button>
+                    <button onClick={sendEmail} type="button" className="mt-2 w-full  px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out">Enviar</button>
 
                   </div>
                 </div>
