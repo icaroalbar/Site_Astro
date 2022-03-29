@@ -1,0 +1,36 @@
+.footer h4 {
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #cea80f;
+}
+
+.footer li, .footer ul a, .contato a {
+    padding: 10px;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.footer ul a:hover, .contato a:hover {
+    background-color: rgba(255,255,255, .1);
+}
+
+.footer span {
+    white-space: nowrap;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer p {
+    padding: 5px 0 25px 10px;
+}
+
+.informacoes p {
+    color: #c0c0c0;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
