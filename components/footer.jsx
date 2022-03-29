@@ -13,7 +13,7 @@ export default function Footer() {
                 <div className="container mx-auto">
                     <div className="grid grid-cols-12">
                         <div className="mx-auto pb-14 col-span-12 md:col-span-4 flex items-center">
-                            <Link href={"/"}><a href="/"><Image
+                            <Link href={"/"}><a><Image
                                 src="/images/astro.png"
                                 width="150px"
                                 height="100px"
@@ -23,10 +23,10 @@ export default function Footer() {
                         <div className="col-span-6 md:col-span-4">
                             <h4 className="text-lg">menu</h4>
                             <div className={`text-brancohp pt-10 text-xs text-cinzastro ${styles.contato}`}>
-                                <Link href="#"><li className="mt-2"><a>Sobre</a></li></Link>
-                                <Link href="#"><li className="mt-2"><a>Serviços</a></li></Link>
-                                <Link href="/contact"><li className="mt-2"><a>Contato</a></li></Link>
-                                <Link href="#"><button type="button" class="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out mt-4 ml-4">Matricule-se</button></Link>
+                                <Link href="#" passHref ><li className="mt-2"><a>Sobre</a></li></Link>
+                                <Link href="#" passHref ><li className="mt-2"><a>Serviços</a></li></Link>
+                                <Link href="/contact" passHref ><li className="mt-2"><a>Contato</a></li></Link>
+                                <Link href="#" passHref ><button type="button" className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out mt-4 ml-4">Matricule-se</button></Link>
                             </div>
                         </div>
                         <div className="col-span-6 md:col-span-4">
