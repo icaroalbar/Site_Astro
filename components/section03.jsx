@@ -16,6 +16,8 @@ export default function Section03() {
                         <h2 className="py-2 text-3xl font-semibold border-b-2 border-amareloastro-500">Lorem ipsum dolor sit amet</h2>
                         <p className="py-2 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint nostrum at iste temporibus dolores voluptatum voluptatibus aspernatur dolorum fuga laboriosam soluta impedit, quaerat veniam corrupti, exercitationem tenetur quibusdam obcaecati! Ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid laudantium debitis praesentium.</p>
                     </div>
+                    
+                <div id="vantagens"></div>
                 </div>
             </div>
         </>

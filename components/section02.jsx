@@ -12,14 +12,15 @@ export default function Section02() {
                     <Image src="/images/8432.png" width="500" height="327" alt="" />
                 </div>
                 <div className="col-span-12 md:col-span-6 p-10 md:p-20">
-                    <h2 className="py-2 text-3xl font-semibold border-b-2 border-azulastro-500">Lorem ipsum dolor sit amet</h2>
-                    <p className="py-5 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid laudantium debitis praesentium.</p>
+                    <h2 className="py-2 text-2xl font-semibold border-b-2 border-azulastro-500">Conheça o mudo das criptomoedas</h2>
+                    <p className="py-5 text-justify">Com a Astrocrypto você aprende a:</p>
                     <ul className="md:pl-6 text-xl">
-                        <li className="py-3"><FontAwesomeIcon icon="fa-solid fa-circle-check" className="pr-2" />Lorem ipsum dolor sit amet</li>
-                        <li className="py-3"><FontAwesomeIcon icon="fa-solid fa-circle-check" className="pr-2" />Lorem ipsum dolor sit amet</li>
-                        <li className="py-3"><FontAwesomeIcon icon="fa-solid fa-circle-check" className="pr-2" />Lorem ipsum dolor sit amet</li>
-                        <li className="py-3"><FontAwesomeIcon icon="fa-solid fa-circle-check" className="pr-2" />Lorem ipsum dolor sit amet</li>
+                        <li className="py-3"><FontAwesomeIcon icon="fa-solid fa-circle-check" className="pr-2" />Realizar operações na prática</li>
+                        <li className="py-3"><FontAwesomeIcon icon="fa-solid fa-circle-check" className="pr-2" />Identificar quais moedas mais valorizam</li>
+                        <li className="py-3"><FontAwesomeIcon icon="fa-solid fa-circle-check" className="pr-2" />Operar nas Exchanges e DEX.</li>
+                        <li className="py-3"><FontAwesomeIcon icon="fa-solid fa-circle-check" className="pr-2" />Descobrir possíveis golpes</li>
                     </ul>
+                <div id="sobre"></div>
                 </div>
             </div>
         </>

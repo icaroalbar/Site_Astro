@@ -23,8 +23,8 @@ export default function Section04() {
             <div className={`py-12 ${styles.header}`}>
                 <div className={`container mx-auto p-12 text-azulastro-700`}>
                     <div className="text-center">
-                        <h2 className="text-3xl pb-10 font-semibold">Lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatum distinctio, corporis incidunt facilis delectus amet eaque inventore voluptatibus labore ipsam sint, eveniet minus dolorem necessitatibus harum repudiandae excepturi repellendus?</p>
+                        <h2 className="text-3xl pb-10 font-semibold">Proporcionando grandes realizações!</h2>
+                        <p className="text-xl">Temos o orgulho de poder ajudar pessoas à realizar sonhos através do nosso trabalho. Seja o próximo a realizar seus sonhos!</p>
                     </div>
                     <div className="owl-carousel owl-theme grid grid-cols-12 gap-y-10 md:gap-16 py-12 text-justify">
                         <div className="col-span-12 md:col-span-4">

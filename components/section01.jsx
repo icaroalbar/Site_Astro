@@ -24,20 +24,17 @@ export default function Section01() {
         <>
             <div className="bg-azulastro-500">
                 <div className={`container mx-auto p-12`}>
-                    <div className="text-center" id="servicos">
-                        <h2 className="text-3xl pb-10 font-semibold text-white">Lorem ipsum</h2>
-                        <p className="text-amareloastro-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptatum distinctio, corporis incidunt facilis delectus amet eaque inventore voluptatibus labore ipsam sint, eveniet minus dolorem necessitatibus harum repudiandae excepturi repellendus?</p>
+                    <div className="text-center">
+                        <h2 className="text-3xl pb-10 font-semibold text-white">Vantagens</h2>
+                        <p className="text-amareloastro-500">Com o foco na inovação, a Astrocrypto disponibiliza um método de aprendizado baseado na prática. Nossas aulas têm como foco proporcionar o conhecimento de modo simples e direto. Conheça, agora, os nossos diferenciais:</p>
                     </div>
                     <div className="grid grid-cols-12 gap-4 py-12">
-                        <Card titule="Icaro" icon="fa-solid fa-beer-mug-empty" info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore
-                            inventore?" />
-                        <Card titule="Icaro" icon="fa-solid fa-bell" info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore
-                            inventore?" />
-                        <Card titule="Icaro" icon="fa-solid fa-battery-half" info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore
-                            inventore?" />
-                        <Card titule="Icaro" icon="fa-brands fa-bilibili" info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore
-                            inventore?" />
+                        <Card titule="Aulas Híbridas" icon="fa-solid fa-book" info="Mentoria que abrange aulas presenciais e online, para que o aluno possa escolher o melhor método. " />
+                        <Card titule="Coworking" icon="fa-solid fa-desktop" info="Tire suas dúvidas diretamente com o mentor e participe de debates semanais com os demais alunos. " />
+                        <Card titule="Segurança" icon="fa-solid fa-lock" info="Local seguro, com internet e computadores disponibilizados livres e vírus e ameaças externas." />
+                        <Card titule="Suporte" icon="fa-solid fa-gears" info="Obtenha suporte online em tempo real através nosso WhatsApp, grupos do Telegram e videoconferências." />
                     </div>
+                <div id="depoimentos"></div>
                 </div>
             </div>
         </>

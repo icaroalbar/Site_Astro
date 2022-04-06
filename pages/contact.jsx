@@ -48,7 +48,7 @@ export default function Contact() {
       </Head>
       <body>
         <div className={`text-white ${styles.header}`}>
-          <div className="container mx-auto p-12">
+          <div className="container mx-auto px-12 pt-24 pb-10">
             <div className="grid grid-cols-12">
               <div className="md:invisible col-span-12 md:col-span-4 flex items-center mx-auto md:order-2">
                 <FontAwesomeIcon icon="fa-solid fa-envelope" size='6x' />
@@ -69,7 +69,7 @@ export default function Contact() {
 
                     <div className="form-group mb-6">
 
-                      <label htmlFor="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Nome completo*</label>
+                      <label htmlFor="nome" className="form-label inline-block mb-2 text-amareloastro-500">Nome completo*</label>
 
                       <input type="text" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="nome" placeholder="Digite seu nome" />
 
@@ -77,7 +77,7 @@ export default function Contact() {
 
                     <div className="form-group mb-6">
 
-                      <label htmlFor="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">E-mail*</label>
+                      <label htmlFor="email" className="form-label inline-block mb-2 text-amareloastro-500">E-mail*</label>
 
                       <input type="text" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="email" placeholder="Digite seu e-mail" />
 
@@ -86,7 +86,7 @@ export default function Contact() {
                     <div className="grid grid-cols-2 gap-4">
                       <div className="col-span-2 md:col-span-1 form-group mb-6">
 
-                        <label htmlFor="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Telefone*</label>
+                        <label htmlFor="telefone" className="form-label inline-block mb-2 text-amareloastro-500">Telefone*</label>
 
                         <input type="text" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="telefone" placeholder="Digite seu principal telefone" />
 
@@ -94,7 +94,7 @@ export default function Contact() {
 
                       <div className="col-span-2 md:col-span-1 form-group mb-6">
 
-                        <label htmlFor="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Assunto*</label>
+                        <label htmlFor="assunto" className="form-label inline-block mb-2 text-amareloastro-500">Assunto*</label>
 
                         <div className="flex">
                           <div className="mb-3 w-full">
@@ -117,7 +117,7 @@ export default function Contact() {
                 <div className="col-span-12 md:col-span-6">
                   <div className="form-group mb-6">
 
-                    <label htmlFor="exampleInputEmail2" className="form-label inline-block mb-2 text-amareloastro-500">Mensagem*</label>
+                    <label htmlFor="mensagem" className="form-label inline-block mb-2 text-amareloastro-500">Mensagem*</label>
 
                     <textarea className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="mensagem" rows="7" placeholder="Escreva aqui..." required ></textarea>
 

@@ -9,62 +9,56 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <>
-            <nav className="shadow-sm w-full z-10 bg-azulastro-500 border-b border-amareloastro-500">
+            <nav className="fixed shadow-sm w-full bg-azulastro-500 border-b border-amareloastro-500 z-50">
                 <div className="w-full">
                     <div className="flex items-center h-20 w-full">
                         <div className="flex items-center  mx-20  justify-between w-full">
                             <div className="flex justify-center items-center flex-shrink-0 ">
-                                <Link href={"/"}><a className={`${style.logo}`}><Image
+                                <a href="/" className={`${style.logo}`}><Image
                                     src="/images/astroH.png"
                                     width="150px"
                                     height="47px"
                                     alt="Logo do Grupo HP"
-                                /></a></Link>
+                                /></a>
                             </div>
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-10">
                                     <Link
-                                        activeClass="sobre"
                                         to="sobre"
                                         smooth={true}
                                         offset={50}
-                                        duration={500}
+                                        duration={1000}
                                         className='hover:text-amareloastro-500 cursor-pointer text-white'
                                     >
                                         Sobre
                                     </Link>
                                     <Link
-                                        activeClass="serviços"
-                                        to="serviços"
+                                        to="vantagens"
                                         smooth={true}
                                         offset={50}
-                                        duration={500}
+                                        duration={1000}
                                         className='hover:text-amareloastro-500 cursor-pointer text-white'
                                     >
-                                        Serviços
+                                        Vantagens
                                     </Link>
                                     <Link
-                                        activeClass="contato"
-                                        to="contato"
+                                        to="depoimentos"
                                         smooth={true}
                                         offset={50}
-                                        duration={500}
+                                        duration={1000}
                                         className='hover:text-amareloastro-500 cursor-pointer text-white'
                                     >
-                                        Contato
+                                        Depoimentos
                                     </Link>
 
+                                    <a href="./contact" className='hover:text-amareloastro-500 cursor-pointer text-white'>Contato</a>
 
-                                    <Link
-                                        activeClass="matriculeSe"
-                                        to="matriculeSe"
-                                        smooth={true}
-                                        offset={50}
-                                        duration={500}
+
+                                    <a href="/contact"
                                         className="cursor-pointer inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                                     >
                                         Matricule-se
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -131,59 +125,38 @@ function Navbar() {
                                 className="bg-azulastro-500 px-2 pt-2 pb-3 space-y-1 sm:px-3"
                             >
                                 <Link
-                                    href="/home"
-                                    activeClass="home"
-                                    to="home"
+                                    to="sobre"
                                     smooth={true}
                                     offset={50}
-                                    duration={500}
-                                    className=" cursor-pointer hover:bg-amareloastro-500 text-white block px-3 py-2 text-base font-medium"
-                                >
-                                    Home
-                                </Link>
-                                <Link
-                                    href="/home"
-                                    activeClass="home"
-                                    to="home"
-                                    smooth={true}
-                                    offset={50}
-                                    duration={500}
+                                    duration={1000}
                                     className=" cursor-pointer hover:bg-amareloastro-500 text-white block px-3 py-2 text-base font-medium"
                                 >
                                     Sobre
                                 </Link>
                                 <Link
-                                    href="/home"
-                                    activeClass="home"
-                                    to="home"
+                                    to="vantagens"
                                     smooth={true}
                                     offset={50}
-                                    duration={500}
+                                    duration={1000}
                                     className=" cursor-pointer hover:bg-amareloastro-500 text-white block px-3 py-2 text-base font-medium"
                                 >
-                                    Serviços
+                                    Vantagens
                                 </Link>
                                 <Link
-                                    href="/home"
-                                    activeClass="home"
-                                    to="home"
+                                    to="depoimentos"
                                     smooth={true}
                                     offset={50}
-                                    duration={500}
+                                    duration={1000}
                                     className=" cursor-pointer hover:bg-amareloastro-500 text-white block px-3 py-2 text-base font-medium"
                                 >
-                                    Contato
+                                    Depoimentos
                                 </Link>
-                                <Link
-                                    activeClass="matriculeSe"
-                                    to="matriculeSe"
-                                    smooth={true}
-                                    offset={50}
-                                    duration={500}
+                                <a href="/contact" className=" cursor-pointer hover:bg-amareloastro-500 text-white block px-3 py-2 text-base font-medium">Contato</a>
+                                <a href="/contact"
                                     className="cursor-pointer inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                                 >
                                     Matricule-se
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     )}
