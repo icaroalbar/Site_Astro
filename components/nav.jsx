@@ -5,7 +5,7 @@ import Image from "next/image";
 import style from '../styles/nav.module.css'
 
 
-function Navbar() {
+export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <>
@@ -21,7 +21,7 @@ function Navbar() {
                                     alt="Logo do Grupo HP"
                                 /></a>
                             </div>
-                            <div className="hidden md:block">
+                            <div className="hidden lg:block">
                                 <div className="ml-10 flex items-baseline space-x-10">
                                     <Link
                                         to="sobre"
@@ -51,7 +51,7 @@ function Navbar() {
                                         Depoimentos
                                     </Link>
 
-                                    <a href="./contact" className='hover:text-amareloastro-500 cursor-pointer text-white'>Contato</a>
+                                    <a href="/contact" className='hover:text-amareloastro-500 cursor-pointer text-white'>Contato</a>
 
 
                                     <a href="/contact"
@@ -62,7 +62,7 @@ function Navbar() {
                                 </div>
                             </div>
                         </div>
-                        <div className="mr-10 flex md:hidden ">
+                        <div className="mr-10 flex lg:hidden ">
                             <button
                                 onClick={() => setIsOpen(!isOpen)}
                                 type="button"
@@ -119,7 +119,7 @@ function Navbar() {
                     leaveTo="opacity-0 scale-95"
                 >
                     {(ref) => (
-                        <div className="md:hidden" id="mobile-menu">
+                        <div className="lg:hidden" id="mobile-menu">
                             <div
                                 ref={ref}
                                 className="bg-azulastro-500 px-2 pt-2 pb-3 space-y-1 sm:px-3"
@@ -152,7 +152,7 @@ function Navbar() {
                                     Depoimentos
                                 </Link>
                                 <a href="/contact" className=" cursor-pointer hover:bg-amareloastro-500 text-white block px-3 py-2 text-base font-medium">Contato</a>
-                                <a href="/contact"
+                                <a href="./contact"
                                     className="cursor-pointer inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                                 >
                                     Matricule-se
@@ -165,5 +165,3 @@ function Navbar() {
         </>
     );
 }
-
-export default Navbar;

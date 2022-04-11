@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/header.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import NavContact from '../components/navContact'
 
 export default function Contact() {
 
@@ -47,8 +48,9 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
+        <NavContact />
         <div className={`text-white ${styles.header}`}>
-          <div className="container mx-auto px-12 pt-24 pb-10">
+          <div className="container mx-auto px-12 pt-18 pb-10">
             <div className="grid grid-cols-12">
               <div className="md:invisible col-span-12 md:col-span-4 flex items-center mx-auto md:order-2">
                 <FontAwesomeIcon icon="fa-solid fa-envelope" size='6x' />

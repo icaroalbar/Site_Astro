@@ -29,4 +29,3 @@ export default function sendMail(req, res) {
   }).then(response => { res.send(response) })
     .catch(erro => { res.send(erro) })
 }
-''

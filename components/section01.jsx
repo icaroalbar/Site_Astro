@@ -6,9 +6,9 @@ function Card(props) {
     return (
         <>
             <div className={`col-span-12 sm:col-span-6 xl:col-span-3`}>
-                <div className={`border border-amareloastro-500 text-white py-14 px-6 rounded-xl flex justify-center items-center overflow-hidden duration-500 bg-gradient-to-r from-azulastro-500 to-azulastro-700 hover:-translate-y-2`}>
+                <div className={`border border-amareloastro-500 text-white py-14 box-border px-6 rounded-xl flex justify-center items-center overflow-hidden duration-500 bg-gradient-to-r from-azulastro-500 to-azulastro-700 hover:-translate-y-2`}>
                     <div className={`text-center z-10 duration-500 mb-4`}>
-                        <FontAwesomeIcon icon={props.icon} size="4x" />
+                        <FontAwesomeIcon icon={props.icon} size="3x" />
                         <h3 className="text-3xl py-8 text-amareloastro-500">{props.titule}</h3>
                         <p className="text-base font-light z-10 duration-500">{props.info}</p>
                     </div>

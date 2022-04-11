@@ -2,12 +2,14 @@ import Link from "next/link";
 import Image from 'next/image'
 import styles from '../styles/header.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Politica from '../components/politica'
 
 export default function Header() {
 
     return (
-
+        
         <>
+        <Politica />
             <div className={`pt-16 bg-gradient-to-r from-azulastro-700 to-azulastro-500 ${styles.header}`}>
                 <div className="container mx-auto px-12 py-6 md:py-0">
                     <div className="h-[90vh] grid grid-cols-12 content-center">

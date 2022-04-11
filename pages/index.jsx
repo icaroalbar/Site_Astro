@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Nav from '../components/nav'
 import Header from '../components/header'
 import Section01 from '../components/section01'
 import Section02 from '../components/section02'
@@ -16,6 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
+        <Nav />
         <Header />
         <Section02 />
         <Section03 />
