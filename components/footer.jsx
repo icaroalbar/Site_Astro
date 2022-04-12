@@ -25,9 +25,9 @@ export default function Footer() {
                             <div className={`text-brancohp pt-10 text-xs text-cinzastro ${styles.contato}`}>
                                 <li className="mt-2"><a href="./#sobre" passHref>Sobre</a></li>
                                 <li className="mt-2"><a href="./#depoimentos" passHref>Depoimentos</a></li>
-                                <li className="mt-2"><a href="/contact" passHref>Contato</a></li>
+                                <li className="mt-2"><a href="./contact" passHref>Contato</a></li>
                             </div>
-                            <a href="/contact" passHref type="button" className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out mt-4 ml-4">Matricule-se</a>
+                            <a href="./contact" passHref type="button" className="inline-block px-6 py-2.5 bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out mt-4 ml-4">Matricule-se</a>
                         </div>
                         <div className="col-span-6 md:col-span-4">
                             <h4>atendimento</h4>

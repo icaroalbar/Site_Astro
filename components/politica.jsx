@@ -15,7 +15,7 @@ export default function Politica() {
                     <p>Nós do Grupo HP, para trazer uma melhor experiência em nossos meios de comunicação, utilizamos
                         <i> cookies, localStorange</i> e outras tecnologias semelhantes para personalizar melhor os nosso
                         conteúdos
-                        de acordo com o nosso <a href="./politica" className="font-bold hover:border-b-2 border-azulastro-500" target="bland">Termo de Privacidade.</a> Clique em continuar para
+                        de acordo com o nosso <a href="./termo" className="font-bold hover:border-b-2 border-azulastro-500" target="bland">Termo de Privacidade.</a> Clique em continuar para
                         concordar com estas condições.
                     </p>
                 </div>
