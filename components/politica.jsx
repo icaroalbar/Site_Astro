@@ -5,7 +5,12 @@ import styles from '../styles/politica.module.css'
 export default function Politica() {
 
     function ocultar(event) {
+
+        
         event = document.querySelector('.concordo').classList.add('hidden')
+        
+        window.localStorage.setItem('politica', 'ok')
+
     }
 
     return (
