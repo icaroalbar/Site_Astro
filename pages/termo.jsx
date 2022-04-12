@@ -63,7 +63,7 @@ export default function Contact() {
                 <p>
                   A HP HOLDING processa os dados pessoais dos usuários conforme necessário para cumprir suas obrigações legais
                   e contratuais, operar negócios, fornecer serviços que os usuários utilizam ou de outra forma a cumprir os
-                  interesses legítimos descritos nas seções "Uso das informações" abaixo.
+                  interesses legítimos descritos nas seções Uso das informações abaixo.
                   Podemos coletar e processar os seguintes dados dos usuários:
                 </p>
                 <ol>
