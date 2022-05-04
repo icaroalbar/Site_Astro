@@ -1,16 +1,18 @@
 import Link from "next/link";
 import Image from 'next/image'
 import styles from '../styles/politica.module.css'
+import { useEffect } from "react";
 
 export default function Politica() {
 
-    function ocultar(event) {
+    useEffect(() => {
+        const valor = localStorage.getItem('politica')
+        if(valor) adicionarStorange()
+    }, [])
 
-        
-        event = document.querySelector('.concordo').classList.add('hidden')
-        
-        window.localStorage.setItem('politica', 'ok')
-
+    function adicionarStorange() {
+        document.querySelector('.concordo').classList.add('hidden')
+        localStorage.setItem('politica', 'ok')
     }
 
     return (
@@ -25,7 +27,7 @@ export default function Politica() {
                     </p>
                 </div>
                 <div className="col-span-12 md:col-span-2 flex justify-center">
-                    <button onClick={ocultar} type="button" className="inline-block px-6 py-2.5 bg-azulastro-500 text-white font-medium text-xs uppercase rounded hover:bg-blue-900 transition duration-150">Concordo</button>
+                    <button onClick={adicionarStorange} type="button" className="inline-block px-6 py-2.5 bg-azulastro-500 text-white font-medium text-xs uppercase rounded hover:bg-blue-900 transition duration-150">Concordo</button>
                 </div>
             </div>
         </div>

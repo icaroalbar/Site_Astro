@@ -87,7 +87,7 @@ export default function Footer() {
                         >
                             <p>
                                 &copy;&ensp;
-                                {Ano} Grupo HP - CNPJ: 00.000.000/0001-00
+                                {Ano} Grupo HP - CNPJ: 34.179.467/0001-62
                             </p>
                             <p>
                                 Rua Miguel de Frias, 77 Sala 1601 - Icaraí. CEP: 24220-008 -

@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Nav from '../components/nav'
 import Header from '../components/header'
-import Section01 from '../components/section01'
-import Section02 from '../components/section02'
-import Section03 from '../components/section03'
-import Section04 from '../components/section04'
+import Vantagens from '../components/vantagens'
+import Conheca from '../components/conheca'
+import Sobre from '../components/sobre'
+import Depoimentos from '../components/depoimentos'
 
 export default function Home() {
 
@@ -19,10 +19,10 @@ export default function Home() {
       <body>
         <Nav />
         <Header />
-        <Section02 />
-        <Section03 />
-        <Section01 />
-        <Section04 />
+        <Conheca />
+        <Sobre />
+        <Vantagens />
+        <Depoimentos />
       </body>
     </>
   )
