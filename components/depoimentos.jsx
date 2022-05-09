@@ -32,10 +32,10 @@ export default function Section04() {
                             nome="Icaro Albar" />
 
                         <Depoimento texto="Achei que eu nunca iria ter uma sorte dessa: Ganhar bastante dinheiro em dólar em apenas um investomento. Você me ouviu, conversou comigo me deu grandes orientações e indicações e agora eu cheguei em um grande resultado."
-                            nome="Icaro Albar" />
+                            nome="Thais Oliveira" />
 
                         <Depoimento texto="Vou indicar você para quem quiser aprender pois tive um grande reultado em apenas uma única moeda."
-                            nome="Icaro Albar" />
+                            nome="Luiz Carvalho" />
 
                     </div>
                 </div>

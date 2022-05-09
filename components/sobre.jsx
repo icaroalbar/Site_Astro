@@ -14,7 +14,7 @@ export default function Section03() {
                 <div className="col-span-12 md:col-span-7 p-12 flex items-center">
                     <div>
                         <h2 className="py-2 text-3xl font-semibold border-b-2 border-amareloastro-500">Conheça Roberto Rodrigues</h2>
-                        <p className="py-2 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint nostrum at iste temporibus dolores voluptatum voluptatibus aspernatur dolorum fuga laboriosam soluta impedit, quaerat veniam corrupti, exercitationem tenetur quibusdam obcaecati! Ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid laudantium debitis praesentium.</p>
+                        <p className="py-2 text-justify text-xl">Técnico em Analise de Dados, analista de Cripto Ativos, Criador de Conteúdo, operando com Criptomoedas desde 2019, educador financeiro, certificado pela Anbima em Renda Fixa</p>
                     </div>
                     
                 <div id="vantagens"></div>
