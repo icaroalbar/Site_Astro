@@ -57,7 +57,7 @@ export default function Contact() {
               </div>
               <div className="col-span-12 md:order-1">
                 <h1 className="text-cinzaastro-300 text-center md:text-left leading-none font-light text-4xl my-4 md:mb-4">Fale conosco</h1>
-                <p className="text-justify text-amareloastro-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam assumenda quod culpa velit, nihil enim ipsum quam possimus, a veritatis tempora odit! Commodi, quos. Quisquam animi adipisci architecto repudiandae numquam.</p>
+                <p className="text-justify text-2xl text-amareloastro-700">Faça sua inscrição, tire suas dúvidas preenchendo o formulário abaixo que nossa equipe vai entrar em contato o mais rápido possível para esclarecer suas dúvidas.</p>
               </div>
             </div>
 
