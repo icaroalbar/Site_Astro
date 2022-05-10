@@ -7,14 +7,14 @@ export default function sendMail(req, res) {
     host: 'smtp.hostinger.com',
     port: 465,
     auth: {
-      user: 'icaro.albar@hpcap.com.br',
-      pass: '123Icaro'
+      user: 'contato@astrocrypto.com.br',
+      pass: '123@Capital'
     }
   })
 
   transporter.sendMail({
-    from: "Contato Astro <icaro.albar@hpcap.com.br>",
-    to: "icaro.albar@live.com",
+    from: "Contato Astro <contato@astrocrypto.com.br>",
+    to: "icaro.albar@hpcap.com.br,contato@astrocrypto.com.br,manoel.carvalho@astrocrypto.com.br,roberto.rodrigues@astrocrypto.com.br,thais.oliveira@hpcap.com.br",
     subject: "Mensagem do site",
     text: `${req.body.nome}
            ${req.body.email}
