@@ -87,10 +87,10 @@ export default function Footer() {
                         >
                             <p>
                                 &copy;&ensp;
-                                {Ano} Grupo HP - CNPJ: 34.179.467/0001-62
+                                {Ano} AstroCrypto - CNPJ: 34.179.467/0001-62
                             </p>
                             <p>
-                                Rua Miguel de Frias, 77 Sala 1601 - Icaraí. CEP: 24220-008 -
+                                Rua Miguel de Frias, 77 Sala 1501 - Icaraí. CEP: 24220-008 -
                                 Niterói,RJ
                             </p>
                         </div>
