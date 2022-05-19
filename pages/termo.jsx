@@ -20,7 +20,7 @@ export default function Contact() {
           <div className="container mx-auto px-12 pt-18 pb-10">
             <div className="grid grid-cols-12">
               <div className="md:invisible col-span-12 md:col-span-4 flex items-center mx-auto md:order-2">
-                <FontAwesomeIcon icon="fa-solid fa-envelope" size='6x' />
+                <FontAwesomeIcon icon="fa-solid fa-file-lines" />
               </div>
               <div className={`col-span-12 md:order-1 text-justify ${styles.textPolitica}`}>
                 <h1 className="text-cinzaastro-300 text-center md:text-left leading-none font-light text-4xl my-4 md:mb-4">Termo de políticas de Privacidade</h1>
@@ -107,13 +107,13 @@ export default function Contact() {
                             navegar pelo site e usar seus recursos, como o acesso às áreas seguras do site;
                           </li>
                           <li className='ml-6'>
-                          <span className=' text-amareloastro-500'>2.1.2.</span>Cookies analíticos / de desempenho: Eles permitem reconhecer e contar o número de
+                            <span className=' text-amareloastro-500'>2.1.2.</span>Cookies analíticos / de desempenho: Eles permitem reconhecer e contar o número de
                             visitantes e ver como os visitantes se movimentam pelo nosso site quando o estão usando.
                             Isso nos ajuda a melhorar o funcionamento do nosso site, por exemplo, garantindo que os
                             usuários encontrem o que estão procurando com facilidade;
                           </li>
                           <li className='ml-6'>
-                          <span className=' text-amareloastro-500'>2.1.3.</span>Cookies de funcionalidade: Estes são usados para reconhecê-lo quando você retornar ao
+                            <span className=' text-amareloastro-500'>2.1.3.</span>Cookies de funcionalidade: Estes são usados para reconhecê-lo quando você retornar ao
                             nosso site. Isso nos permite personalizar nosso conteúdo para você, cumprimentá-lo pelo
                             nome e lembre-se de suas preferências. Se desejar, o usuário poderá bloquear os cookies
                             ativando a configuração no seu navegador que permite recusar a configuração de todos ou
@@ -150,63 +150,63 @@ export default function Contact() {
                 </p>
                 <ol>
                   <li>
-                  <span className=' text-amareloastro-500'>1. </span>Para cumprir suas obrigações decorrentes da lei;
+                    <span className=' text-amareloastro-500'>1. </span>Para cumprir suas obrigações decorrentes da lei;
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>2. </span>Cumprir obrigações decorrentes de quaisquer contratos celebrados entre usuário/empresa;
+                    <span className=' text-amareloastro-500'>2. </span>Cumprir obrigações decorrentes de quaisquer contratos celebrados entre usuário/empresa;
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>3. </span>Operar e manter os Serviços, por exemplo, para autenticá-lo quando os usuários efetuarem login e para
+                    <span className=' text-amareloastro-500'>3. </span>Operar e manter os Serviços, por exemplo, para autenticá-lo quando os usuários efetuarem login e para
                     processar as transações;
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>4. </span>Prevenir, detectar e combater fraudes e gerenciar os riscos relacionados ao mesmo através do uso de
+                    <span className=' text-amareloastro-500'>4. </span>Prevenir, detectar e combater fraudes e gerenciar os riscos relacionados ao mesmo através do uso de
                     nosso
                     Site e Serviços (por exemplo, verificando sua identidade);
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>5. </span>Para fornecer aos usuários informações, produtos e serviços que os mesmos solicitam;
+                    <span className=' text-amareloastro-500'>5. </span>Para fornecer aos usuários informações, produtos e serviços que os mesmos solicitam;
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>6. </span>Para fornecer aos usuários informações sobre outros produtos e serviços que oferecemos, que são
+                    <span className=' text-amareloastro-500'>6. </span>Para fornecer aos usuários informações sobre outros produtos e serviços que oferecemos, que são
                     semelhantes àqueles sobre os quais estes já perguntaram ou adquiriram;
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>7. </span>Para se comunicar com os usuários, diretamente ou por meio de um dos nossos parceiros, inclusive para
+                    <span className=' text-amareloastro-500'>7. </span>Para se comunicar com os usuários, diretamente ou por meio de um dos nossos parceiros, inclusive para
                     atendimento ao mesmo, para responder às suas solicitações e para obter assistência e atendimento ao
                     cliente
                     serviço, para fornecer atualizações e outras informações relacionadas ao Serviço;
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>8. </span>Para comunicar-se com você sobre nossos produtos e serviços ou notificá-lo sobre as alterações. Também
+                    <span className=' text-amareloastro-500'>8. </span>Para comunicar-se com você sobre nossos produtos e serviços ou notificá-lo sobre as alterações. Também
                     podemos usar suas informações para se comunicar com você sobre nossas promoções, estudos, pesquisas,
                     notícias, atualizações e eventos.
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>9. </span>Para melhorar o nosso site e garantir que o conteúdo do nosso site é apresentado da maneira mais eficaz
+                    <span className=' text-amareloastro-500'>9. </span>Para melhorar o nosso site e garantir que o conteúdo do nosso site é apresentado da maneira mais eficaz
                     para você e para o seu computador.
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>10. </span>Para fins de conformidade, a fim de cumprir qualquer obrigação legal ou para aplicar ou aplicar os
+                    <span className=' text-amareloastro-500'>10. </span>Para fins de conformidade, a fim de cumprir qualquer obrigação legal ou para aplicar ou aplicar os
                     Termos
                     e Condições do site e outros contratos; ou para proteger os direitos, propriedade ou segurança da
                     Empresa,
                     nossos clientes ou outros.
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>11. </span>Administrar nosso site e para operações internas, incluindo solução de problemas, análise de dados,
+                    <span className=' text-amareloastro-500'>11. </span>Administrar nosso site e para operações internas, incluindo solução de problemas, análise de dados,
                     teste, pesquisa, estatística e pesquisa, ou para administrar um concurso, promoção, pesquisa ou outro
                     recurso do site.
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>12. </span>Para permitir que você participe de recursos interativos do nosso serviço, quando você optar por
+                    <span className=' text-amareloastro-500'>12. </span>Para permitir que você participe de recursos interativos do nosso serviço, quando você optar por
                     fazê-lo;
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>13. </span>Como parte de nossos esforços para manter nosso site seguro e protegido;
+                    <span className=' text-amareloastro-500'>13. </span>Como parte de nossos esforços para manter nosso site seguro e protegido;
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>14. </span> Para medir ou entender a eficácia da publicidade, podemos servir a você e fornecer publicidade relevante
+                    <span className=' text-amareloastro-500'>14. </span> Para medir ou entender a eficácia da publicidade, podemos servir a você e fornecer publicidade relevante
                     para você. A HP HOLDING não comercializa ou negocia dados pessoais dos usuários;
                   </li>
                 </ol>
@@ -216,13 +216,13 @@ export default function Contact() {
                 </p>
                 <ol>
                   <li>
-                  <span className=' text-amareloastro-500'>1. </span>Enviar informações, responder a consultas e / ou outras solicitações ou perguntas;
+                    <span className=' text-amareloastro-500'>1. </span>Enviar informações, responder a consultas e / ou outras solicitações ou perguntas;
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>2. </span>Processar ordens e enviar informações e atualizações relativas a pedidos;
+                    <span className=' text-amareloastro-500'>2. </span>Processar ordens e enviar informações e atualizações relativas a pedidos;
                   </li>
                   <li>
-                  <span className=' text-amareloastro-500'>3. </span>Também podemos enviar informações adicionais relacionadas ao seu produto e / ou serviço, bem como
+                    <span className=' text-amareloastro-500'>3. </span>Também podemos enviar informações adicionais relacionadas ao seu produto e / ou serviço, bem como
                     newsletter.
                   </li>
                 </ol>

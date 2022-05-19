@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 import Image from "next/image";
 import style from '../styles/nav.module.css'
 
-
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     return (
