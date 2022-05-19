@@ -19,9 +19,6 @@ export default function Contact() {
         <div className={`text-white ${styles.header}`}>
           <div className="container mx-auto px-12 pt-18 pb-10">
             <div className="grid grid-cols-12">
-              <div className="md:invisible col-span-12 md:col-span-4 flex items-center mx-auto md:order-2">
-                <FontAwesomeIcon icon="fa-solid fa-file-lines" />
-              </div>
               <div className={`col-span-12 md:order-1 text-justify ${styles.textPolitica}`}>
                 <h1 className="text-cinzaastro-300 text-center md:text-left leading-none font-light text-4xl my-4 md:mb-4">Termo de políticas de Privacidade</h1>
                 <p className="text-amareloastro-700 mb-6">A empresa HP HOLDING PARTICIPACOES LTDA., pessoa jurídica de direito privado regida pelas leis brasileiras, inscrita no CNPJ sob o nº 34.179.467/0001- 62, com sede em: Rua Miguel de Frias, 77, salas: 1501, 1502 e 1503, Icaraí – Niterói, RJ, está comprometida em proteger e respeitar a privacidade de usuários:</p>
