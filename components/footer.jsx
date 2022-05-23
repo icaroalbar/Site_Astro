@@ -39,7 +39,7 @@ export default function Footer() {
                                 </p>
                                 <p>
                                     <FontAwesomeIcon icon="fa-solid fa-envelope" />
-                                    &ensp;contato@astrocrpto.com.br
+                                    &ensp;contato@astrocrypto.com.br
                                 </p>
 
                                 <span>Horário de Atendimento</span>
@@ -51,7 +51,7 @@ export default function Footer() {
                                 <span>Ouvidoria</span>
                                 <p>
                                     <FontAwesomeIcon icon="fa-solid fa-envelope" />
-                                    &ensp;ouvidoria@astrocrpto.com.br
+                                    &ensp;ouvidoria@astrocrypto.com.br
                                 </p>
                             </div>
                         </div>

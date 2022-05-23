@@ -1,10 +1,6 @@
 import React, { useState } from "react";
-import { Transition } from "@headlessui/react";
-import { Link } from "react-scroll";
 import Image from "next/image";
 import style from '../styles/nav.module.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);

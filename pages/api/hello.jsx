@@ -14,7 +14,7 @@ export default function sendMail(req, res) {
 
   transporter.sendMail({
     from: "Contato Astro <contato@astrocrypto.com.br>",
-    to: "icaro.albar@hpcap.com.br,contato@astrocrypto.com.br,manoel.carvalho@astrocrypto.com.br,roberto.rodrigues@astrocrypto.com.br,thais.oliveira@hpcap.com.br",
+    to: "icaro.albar@hpcap.com.br,manoel.carvalho@astrocrypto.com.br,roberto.rodrigues@astrocrypto.com.br,thais.oliveira@hpcap.com.br",
     subject: "Mensagem do site",
     text: `${req.body.nome}
            ${req.body.email}

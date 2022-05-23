@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/header.module.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavContact from '../components/navContact'
 
 export default function Contact() {
