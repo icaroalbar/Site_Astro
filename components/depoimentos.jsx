@@ -31,7 +31,7 @@ export default function Section04() {
                         <Depoimento texto="Você com sua simplicidade, me ensinou e deu certo; Nunca tinha visto tanto dinheiro em apenas uma operação e quebrou meu conceito de que somente profissional famoso é quem sabe."
                             nome="Icaro Albar" />
 
-                        <Depoimento texto="Achei que eu nunca iria ter uma sorte dessa: Ganhar bastante dinheiro em dólar em apenas um investomento. Você me ouviu, conversou comigo me deu grandes orientações e indicações e agora eu cheguei em um grande resultado."
+                        <Depoimento texto="Achei que eu nunca iria ter uma sorte dessa: Ganhar bastante dinheiro em dólar em apenas um investimento. Você me ouviu, conversou comigo me deu grandes orientações e indicações e agora eu cheguei em um grande resultado."
                             nome="Thais Oliveira" />
 
                         <Depoimento texto="Vou indicar você para quem quiser aprender pois tive um grande reultado em apenas uma única moeda."
