@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     const tagManagerArgs = {
-      gtmId: 'GTM-PBMF49V'
+      gtmId: process.env.GOOGLE_ANALYTICS_ID
     }
 
     TagManager.initialize(tagManagerArgs)
