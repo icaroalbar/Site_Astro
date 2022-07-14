@@ -18,7 +18,6 @@ export default function Home() {
       <body>
         <Nav />
         <Header />
-        {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}
         <Conheca />
         <Sobre />
         <Vantagens />
