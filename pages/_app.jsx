@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     const tagManagerArgs = {
-      gtmid: 'GTM-PBMF49V'
+      gtmId: 'GTM-PBMF49V'
     }
 
     TagManager.initialize(tagManagerArgs)
