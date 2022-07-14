@@ -8,7 +8,6 @@ import Sobre from '../components/sobre'
 import Depoimentos from '../components/depoimentos'
 
 export default function Home() {
-
   return (
     <>
       <Head>
@@ -19,6 +18,7 @@ export default function Home() {
       <body>
         <Nav />
         <Header />
+        {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}
         <Conheca />
         <Sobre />
         <Vantagens />
